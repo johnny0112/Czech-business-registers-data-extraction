@@ -182,7 +182,7 @@ if page == "Text":
             i=0
             for one_name, one_ico,one_activity,one_date in zip(company_list, ico_list,activity_list,date_list):
                 i=i+1
-                st.write(f"{i}\\) The person is active at {one_name} (CZ, TP: {one_ico}) since {one_date}.")
+                st.write(f"{i}\\) The person is active at {one_name} (IČO: {one_ico}) since {one_date}.")
                 st.write(f"The company is active at {one_activity}.")
         else:
             st.warning("No record found.")
